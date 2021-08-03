@@ -1,0 +1,9 @@
+package com.example.manytomanydemo.repo;
+
+import com.example.manytomanydemo.entity.Animal;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AnimalRepository extends JpaRepository<Animal,Integer> {
+}
